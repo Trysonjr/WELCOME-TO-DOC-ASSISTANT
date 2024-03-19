@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hospital Management System</title>
+  <style>
+    <Body background="1234.jpg"
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    .navbar {
+      background-color: #333;
+      overflow: hidden;
+    }
+    .navbar a {
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 20px;
+      text-decoration: none;
+    }
+    .navbar a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    .login-container {
+      margin: 100px auto;
+      width: 300px;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      background-color: #f9f9f9;
+    }
+    .login-container h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .login-form input[type="text"],
+    .login-form input[type="password"],
+    .login-form button {
+      width: 100%;
+      padding: 10px;
+      margin: 5px 0;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      box-sizing: border-box;
+    }
+    .login-form button {
+      background-color: #333;
+      color: #fff;
+      cursor: pointer;
+    }
+    .login-form button:hover {
+      background-color: #555;
+    }
+    .login-form .social-login {
+      text-align: center;
+    }
+    .login-form .social-login a {
+      display: inline-block;
+      margin: 5px;
+      color: #fff;
+      padding: 10px;
+      border-radius: 3px;
+      text-decoration: none;
+    }
+    .login-form .social-login a.facebook {
+      background-color: #3b5998;
+    }
+    .login-form .social-login a.facebook:hover {
+      background-color: #5474a8;
+    }
+    .login-form .social-login a.google {
+      background-color: #dd4b39;
+    }
+    .login-form .social-login a.google:hover {
+      background-color: #e86e5a;
+    }
+  </style>
+</head>
+<body>
+
+<div class="navbar">
+  <a href="https://chat.openai.com/">Ai bot</a>
+  <a href="forget.html">forget password</a>
+  <a href="#">About</a>
+  <a href="#">Contact</a>
+  <a style="float:right" href="back stage.html">Sign Up</a>
+</div>
+
+<div class="login-container">
+  <h2>Login</h2>
+  <form class="login-form">
+    <input type="text" placeholder="Username">
+    <input type="password" placeholder="Password">
+    <button type="submit">Login</button>
+    <div class="social-login">
+      <a href="#" class="facebook">Login with Facebook</a>
+      <a href="#" class="google">Login with Google</a>
+    </div>
+  </form>
+</div>
+
+</body>
+</html>
